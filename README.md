@@ -37,6 +37,8 @@ If you find this repository helpful, you may consider cite our relevant work:
 * <b> SynthTabNet </b>:Nassar, Ahmed, Nikolaos Livathinos, Maksym Lysak, and Peter Staar. "TableFormer: Table Structure Understanding with Transformers." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 4614-4623. 2022.
   [Paper Link](https://openaccess.thecvf.com/content/CVPR2022/html/Nassar_TableFormer_Table_Structure_Understanding_With_Transformers_CVPR_2022_paper.html), [Home Page Link](https://github.com/IBM/SynthTabNet).
 
+* <b> CTE </b>:  Gemelli, A., Vivoli, E., & Marinai, S. (2023). CTE: A Dataset for Contextualized Table Extraction. arXiv preprint arXiv:2302.01451. [Paper Link](https://arxiv.org/abs/2302.01451), [Home Page Link](https://github.com/AILab-UniFI/cte-dataset)
+
 # Table Detection and Structure Recognition papers
 ## 1993
 ### Journal
@@ -94,7 +96,7 @@ Kieninger, Thomas, and Andreas Dengel. "The t-recs table recognition and analysi
 * He, Dafang, Scott Cohen, Brian Price, Daniel Kifer, and C. Lee Giles. "Multi-scale multi-task fcn for semantic page segmentation and table detection." In 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), vol. 1, pp. 254-261. IEEE, 2017. [Paper Link](https://ieeexplore.ieee.org/abstract/document/8269981)
 * Gilani, Azka, Shah Rukh Qasim, Imran Malik, and Faisal Shafait. "Table detection using deep learning." In 2017 14th IAPR international conference on document analysis and recognition (ICDAR), vol. 1, pp. 771-776. IEEE, 2017. [Paper Link](https://ieeexplore.ieee.org/abstract/document/8270062)
 * Rashid, Sheikh Faisal, Abdullah Akmal, Muhammad Adnan, Ali Adnan Aslam, and Andreas Dengel. "Table recognition in heterogeneous documents using machine learning." In 2017 14th IAPR International conference on document analysis and recognition (ICDAR), vol. 1, pp. 777-782. IEEE, 2017. [Paper Link](https://ieeexplore.ieee.org/abstract/document/8270063/)
-* Rashid, Sheikh Faisal, Abdullah Akmal, Muhammad Adnan, Ali Adnan Aslam, and Andreas Dengel. "Table recognition in heterogeneous documents using machine learning." In 2017 14th IAPR International conference on document analysis and recognition (ICDAR), vol. 1, pp. 777-782. IEEE, 2017. [Paper Link](https://ieeexplore.ieee.org/abstract/document/8270063/)
+
 ## 2018
 ### Journal
 * Siddiqui, Shoaib Ahmed, Muhammad Imran Malik, Stefan Agne, Andreas Dengel, and Sheraz Ahmed. "Decnt: Deep deformable cnn for table detection." IEEE access 6 (2018): 74151-74161. [Paper Link](https://ieeexplore.ieee.org/abstract/document/8540832)
@@ -164,14 +166,12 @@ Kieninger, Thomas, and Andreas Dengel. "The t-recs table recognition and analysi
 ## 2022
 ### Journal
 * Riba, Pau, Lutz Goldmann, Oriol Ramos Terrades, Diede Rusticus, Alicia Fornés, and Josep Lladós. "Table detection in business document images by message passing networks." Pattern Recognition 127 (2022): 108641. [Paper Link](https://doi.org/10.1016/j.patcog.2022.108641)
-* Ma, Chixiang, Weihong Lin, Lei Sun, and Qiang Huo. "Robust Table Detection and Structure Recognition from Heterogeneous Document Images." Pattern Recognition 133 (2023): 109006. [Paper Link](https://doi.org/10.1016/j.patcog.2022.109006)
 * Kwon, Hyebin, Joungbin An, Dongwoo Lee, and Won-Yong Shin. "DATa: Domain Adaptation-aided deep Table detection using visual–lexical representations." Knowledge-Based Systems (2022): 109946.  [Paper Link](https://doi.org/10.1016/j.knosys.2022.109946)
 * Nguyen, Duc-Dung. "TableSegNet: a fully convolutional network for table detection and segmentation in document images." International Journal on Document Analysis and Recognition (IJDAR) 25, no. 1 (2022): 1-14. [Paper Link](https://doi.org/10.1016/j.neucom.2021.10.023)
 
 * Nguyen, Duc-Dung. "TableSegNet: a fully convolutional network for table detection and segmentation in document images." International Journal on Document Analysis and Recognition (IJDAR) 25, no. 1 (2022): 1-14. [Paper Link](https://link.springer.com/article/10.1007/s10032-021-00390-4)
 * Zhang, Daqian, Ruibin Mao, Runting Guo, Yang Jiang, and Jing Zhu. "YOLO-table: disclosure document table detection with involution." International Journal on Document Analysis and Recognition (IJDAR) (2022): 1-14. [Paper Link](https://link.springer.com/article/10.1007/s10032-022-00400-z)
 * Zhang, Zhenrong, Jianshu Zhang, Jun Du, and Fengren Wang. "Split, embed and merge: An accurate table structure recognizer." Pattern Recognition 126 (2022): 108565. [Paper Link](https://www.sciencedirect.com/science/article/pii/S0031320322000462)
-*  Ma, Chixiang, Weihong Lin, Lei Sun, and Qiang Huo. "Robust Table Detection and Structure Recognition from Heterogeneous Document Images." Pattern Recognition 133 (2023): 109006. [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320322004861)
 
 * Li, Xiao-Hui, Fei Yin, He-Sen Dai, and Cheng-Lin Liu. "Table Structure Recognition and Form Parsing by End-to-End Object Detection and Relation Parsing." Pattern Recognition 132 (2022): 108946. [Paper Link]( https://doi.org/10.1016/j.patcog.2022.108946)
 * Ajij, Md, Sanjoy Pratihar, Diptendu Sinha Roy, and Thomas Hanne. "Robust detection of Tables in documents using scores from Table cell cores." SN Computer Science 3, no. 2 (2022): 1-19.[Paper Link]( https://link.springer.com/article/10.1007/s42979-022-01041-z)
@@ -198,6 +198,27 @@ Kieninger, Thomas, and Andreas Dengel. "The t-recs table recognition and analysi
 * Guo, Zengyuan, Yuechen Yu, Pengyuan Lv, Chengquan Zhang, Haojie Li, Zhihui Wang, Kun Yao, Jingtuo Liu, and Jingdong Wang. "TRUST: An Accurate and End-to-End Table structure Recognizer Using Splitting-based Transformers." arXiv preprint arXiv:2208.14687 (2022). [Paper Link](https://arxiv.org/abs/2208.14687)
 * Gemelli, Andrea, Emanuele Vivoli, and Simone Marinai. "Graph neural networks and representation embedding for table extraction in PDF documents." arXiv preprint arXiv:2208.11203 (2022). [Paper Link](https://arxiv.org/abs/2208.11203)
 
+## 2023
+### Journal
+
+*  Ma, Chixiang, Weihong Lin, Lei Sun, and Qiang Huo. "Robust Table Detection and Structure Recognition from Heterogeneous Document Images." Pattern Recognition 133 (2023): 109006. [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S0031320322004861)
+*  Zhang T, Sui Y, Wu S, Shao F, Sun R. Table Structure Recognition Method Based on Lightweight Network and Channel Attention. Electronics. 2023; 12(3):673. [Paper Link](https://doi.org/10.3390/electronics12030673)
+* Kazdar, Takwa, Wided Souidene Mseddi, Moulay A. Akhloufi, Ala Agrebi, Marwa Jmal, and Rabah Attia. 2023. "DCTable: A Dilated CNN with Optimizing Anchors for Accurate Table Detection" Journal of Imaging 9, no. 3: 62. [Paper Link](https://doi.org/10.3390/jimaging9030062)
+
+* Namysł, M., Esser, A.M., Behnke, S. et al. Flexible Hybrid Table Recognition and Semantic Interpretation System. SN COMPUT. SCI. 4, 246 (2023). [Paper Link](https://doi.org/10.1007/s42979-022-01659-z)
+
+* Yang, F., Hu, L., Liu, X. et al. A large-scale dataset for end-to-end table recognition in the wild. Sci Data 10, 110 (2023).  [Paper Link](https://doi.org/10.1038/s41597-023-01985-8)
+* Wang, Hongyi, Yang Xue, Jiaxin Zhang, and Lianwen Jin. "Scene table structure recognition with segmentation collaboration and alignment." Pattern Recognition Letters 165 (2023): 146-153.[Paper Link]( https://doi.org/10.1016/j.patrec.2022.12.014)
+
+### Preprint
+* Smock, Brandon, Rohith Pesala, and Robin Abraham. "Aligning benchmark datasets for table structure recognition." arXiv preprint arXiv:2303.00716 (2023). [Paper Link](https://arxiv.org/abs/2303.00716)
+* Xing, H., Gao, F., Long, R., Bu, J., Zheng, Q., Li, L., ... & Yu, Z. (2023). LORE: Logical Location Regression Network for Table Structure Recognition. arXiv preprint arXiv:2303.03730. [Paper Link](https://arxiv.org/abs/2303.03730)
+
+* Zhang, Z., Hu, P., Ma, J., Du, J., Zhang, J., Zhu, H., ... & Liu, C. (2023). SEMv2: Table Separation Line Detection Based on Conditional Convolution. arXiv preprint arXiv:2303.04384.[Paper Link]( https://arxiv.org/abs/2303.04384 )
+
+ * Ly, N. T., & Takasu, A. (2023). An End-to-End Multi-Task Learning Model for Image-based Table Recognition. arXiv preprint arXiv:2303.08648. [Paper Link]( https://arxiv.org/abs/2303.08648 )
+ 
+ * Ly, N. T., Takasu, A., Nguyen, P., & Takeda, H. (2023). Rethinking Image-based Table Recognition Using Weakly Supervised Methods. arXiv preprint arXiv:2303.07641. [Paper Link]( https://arxiv.org/abs/2303.07641)
 
 ## Cite as
 If you find this work useful for your research, please cite our paper:
